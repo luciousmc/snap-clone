@@ -78,9 +78,9 @@ function Preview() {
           <TimerIcon />
         </div>
         <img src={cameraImage} alt="" />
-        <div className="preview__footer">
+        <div className="preview__footer" onClick={sendPost}>
           <h2>Send Now!</h2>
-          <SendIcon className="preview__sendIcon" fontSize="small" onClick={sendPost} />
+          <SendIcon className="preview__sendIcon" fontSize="small" />
         </div>
       </div>
     </div>
